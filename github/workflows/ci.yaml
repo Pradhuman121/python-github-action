@@ -4,9 +4,9 @@ name: CI/CD Pipeline
 # Trigger the workflow on push or pull request events targeting the main branch
 on:
   push:
-    branches: [main]         # Runs when code is pushed to the 'main' branch
+    branches: [master]         # Runs when code is pushed to the 'main' branch
   pull_request:
-    branches: [main]         # Runs when a pull request targets the 'main' branch
+    branches: [master]         # Runs when a pull request targets the 'main' branch
 
 jobs:
   build:                     # Name of the job
